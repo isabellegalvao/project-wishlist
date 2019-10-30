@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "/Users/isabelle/.local/share/virtualenvs/Wishlist-0Pl5urSE/bin/python",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
