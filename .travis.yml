@@ -14,7 +14,7 @@ script:
 deploy:
   skip_cleanup: true
   provider: script
-  script: severless deploy
+  script: serverless deploy
   on:
     all_branches: true
     
