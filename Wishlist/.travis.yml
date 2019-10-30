@@ -1,0 +1,19 @@
+language: python
+python:
+- '3.7'
+env:
+- TRAVIS_NODE_VERSION="7"
+
+install:
+  - npm install serveless@1.37.1 -g
+  - npm install
+
+script:
+  - echo 'Not tests for now'
+
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: severless deploy
+  on:
+    all_branches: true
